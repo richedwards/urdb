@@ -15,4 +15,8 @@ class Movie < ActiveRecord::Base
   def audience_rating
 
   end
+
+  def self.average_rating
+
+  end
 end
